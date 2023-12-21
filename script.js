@@ -88,8 +88,8 @@ function loadtek() {
 // Call loadtek() to load the saved game data when the game starts
 loadtek();
 
-// Call savetek() to save the game data periodically (e.g., every 1 seconds)
-setInterval(savetek, 1); // 1 seconds (1 seconds)
+// Call savetek() to save the game data periodically (e.g., every 0 seconds)
+setInterval(savetek, 1); // 0 seconds (0 seconds)
 
 // Event listeners
 mineButton.addEventListener("click", mineGold);
