@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incremental Miner Tycoon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Incremental Miner Tycoon</h1>
+        <p>This game uses a custom autosave feature called SaveTek API made by Jafet Egill.</p>
+        <div id="mine">
+            <p>Mine Level: <span id="mine-level">1</span></p>
+            <button id="mine-button">Mine</button>
+        </div>
+        <div id="resources">
+            <p>Gold: <span id="gold">0</span></p>
+            <p>Gold Per Second: <span id="gold-per-second">0</span></p>
+            <button id="upgrade-mine">Upgrade Mine (Cost: <span id="upgrade-cost">10</span> gold)</button>
+        </div>
+        <div id="workers">
+            <p>Workers: <span id="worker-count">0</span></p>
+            <button id="hire-worker">Hire Worker (Cost: <span id="worker-cost">50</span> gold)</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
